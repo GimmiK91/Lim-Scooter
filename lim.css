@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family:'Inter',sans-serif;
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin:2% 19%;
+    padding: 5%;
+    border-radius: 20px;
+    
+}
+
+.container>img{
+   margin:2% 40% 0;
+   height:24%;
+   width:24%; 
+}
+
+.container>p{
+    color: rgb(0,225,0);
+    text-align: center;
+    font-size: 200%;
+}
+
+.buttons{
+    background-color: rgb(0,225,0);
+    text-align: center;
+}
+.buttons,.select{
+    margin:1% 10%;
+}
+
+.buttons>button{
+    margin:1% auto;
+    padding:0px 3px;
+}
+
+.select
+{
+    color:white;
+}
+
+.select>span,.select>div{
+    font-size:15px;
+}
+
+.scooter{
+    font-size: 25px;
+    margin:0 1%;
+}
+.charge-yellow,.charge-green,.charge-red{
+    margin:2% 0 2%;
+    padding:1.5%;
+    border-radius: 5px;
+}
+.charge-yellow{
+    background-color: gold;
+    width: 50%;
+}
+.charge-red{
+    background-color: rgb(175, 46, 46);
+    width: 20%;
+}
+.charge-green{
+    background-color: rgb(0, 192, 0);
+    width: 80%;
+}
